@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <h2>Formulário de Contato</h2>
+
+    <form action="processa.php" method="POST">
+        <label>
+            Nome:<br>
+            <input type="text" name="nome" required>
+        </label>
+        <br><br>
+
+        <label>
+            Email:<br>
+            <input type="email" name="email" required>
+        </label>
+        <br><br>
+
+        <label>
+            Mensagem:<br>
+            <textarea name="mensagem" required></textarea>
+        </label>
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
